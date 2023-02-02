@@ -176,6 +176,8 @@ function operate(x, y, op) {
         } else {
         return x / y;
         }
+    } else if(op === 'x^2') {
+        return (x * x);
     }
 }
 
