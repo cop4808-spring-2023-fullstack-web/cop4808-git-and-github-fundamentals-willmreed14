@@ -58,6 +58,26 @@ button {
     font-weight: bold;    
 }
 
+.square {
+    background-color: #ff6593;
+    font-weight: bold;    
+}
+
+.square_root {
+    background-color: #ff6593;
+    font-weight: bold;    
+}
+
+.cube {
+    background-color: #ff6593;
+    font-weight: bold;    
+}
+
+.cube_root {
+    background-color: #ff6593;
+    font-weight: bold;    
+}
+
 .operator {
     background-color: #FF8F1F;    
 }
