@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px); /* adding a 6th row */
     gap: 2px;
 }
 
@@ -61,7 +61,7 @@ button {
     background-color: #ffc183;
 }
 
-.new {
+.new { /*class new buttons will belong to */
     background-color: #a51fff;
     font-weight: bold;    
 }
