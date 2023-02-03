@@ -181,6 +181,8 @@ function operate(x, y, op) {
         return x - y;
     } else if(op === '*') {
         return x * y;
+    } else if(op === 'sqrt') {
+        return Math.sqrt(x);
     } else if(op === '/') {
         if(y === 0) {
             return 'lmao';
