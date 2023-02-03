@@ -42,16 +42,16 @@ function clickButton() {
                 inputSign(displayValue);
                 updateDisplay();
              } else if(buttons[i].classList.contains('square')) {
-                inputSquare(displayValue);
+                inputOperand(buttons[i].value);
                 updateDisplay();
             } else if(buttons[i].classList.contains('square_root')) {
-                inputSquareRoot(displayValue);
+                inputOperand(buttons[i].value);
                 updateDisplay();
             } else if(buttons[i].classList.contains('cube')) {
-                inputCube(displayValue);
+                inputOperand(buttons[i].value);
                 updateDisplay();
             } else if(buttons[i].classList.contains('cube_root')) {
-                inputCubeRoot(displayValue);
+                inputOperand(buttons[i].value);
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
                 updateDisplay();
