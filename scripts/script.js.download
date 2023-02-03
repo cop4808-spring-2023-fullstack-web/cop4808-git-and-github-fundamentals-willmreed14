@@ -187,6 +187,8 @@ function operate(x, y, op) {
         return 1 / x;
     } else if(op === 'square') {
         return x * x;
+    } else if(op === 'exp') {
+        return Math.pow(x,y);
     } else if(op === '/') {
         if(y === 0) {
             return 'lmao';
