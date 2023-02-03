@@ -61,6 +61,16 @@ button {
     background-color: #ffc183;
 }
 
+.new {
+    background-color: #a51fff;
+    font-weight: bold;    
+}
+
+.new:focus {
+    background-color: #cd83ff;
+    font-weight: bold; 
+}
+
 .equals {
     background-color: #FF8F1F;
 }
