@@ -6,9 +6,14 @@ let secondOperator = null;
 let result = null;
 const buttons = document.querySelectorAll('button');
 
-window.addEventListener('keydown', function(e){
-    const key = document.querySelector(`button[data-key='${e.keyCode}']`);
-    key.click();
+window.addEventListener('keydown', function(e){ // when a key is pressed, this function is listening
+    const key = document.querySelector(`button[data-key='${e.keyCode}']`); // find out what key they clicked
+    try{ // try clicking the key that was pressed by the user
+        key.click(); // click on that button 
+    }
+    catch{ // if the key pressed was not a valid key, just print it and don't crash the program
+        console.log("unsupported key was pressed key=", e.key)
+    }
 });
 
 function updateDisplay() {
