@@ -66,6 +66,7 @@ function clickButton() {
 clickButton();
 
 function inputOperand(operand) {
+    //console.log("displayValue=",displayValue,"operand",operand,"firstOperand")
     if(firstOperator === null) {
         if(displayValue === '0' || displayValue === 0) {
             //1st click - handles first operand input
