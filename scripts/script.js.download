@@ -8,7 +8,7 @@ const buttons = document.querySelectorAll('button');
 
 window.addEventListener('keydown', function(e){ // when a key is pressed, this function is listening
     const key = document.querySelector(`button[data-key='${e.keyCode}']`); // find out what key they clicked
-    try{ // try clicking the key that was pressed by the user
+    try{ // try clicking the key that was pressed by the user // adding try/catch makes the calc not allow duplicate numbers
         key.click(); // click on that button 
     }
     catch{ // if the key pressed was not a valid key, just print it and don't crash the program
